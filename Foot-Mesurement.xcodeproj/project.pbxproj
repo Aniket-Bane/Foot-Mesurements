@@ -8,21 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		189A6A9F29B494D300DF7796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A6A9E29B494D300DF7796 /* AppDelegate.swift */; };
-		189A6AA129B494D300DF7796 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 189A6AA029B494D300DF7796 /* art.scnassets */; };
 		189A6AA329B494D300DF7796 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A6AA229B494D300DF7796 /* ViewController.swift */; };
 		189A6AA629B494D300DF7796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189A6AA429B494D300DF7796 /* Main.storyboard */; };
-		189A6AA829B494D500DF7796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189A6AA729B494D500DF7796 /* Assets.xcassets */; };
 		189A6AAB29B494D500DF7796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189A6AA929B494D500DF7796 /* LaunchScreen.storyboard */; };
+		189A6AC129B4958800DF7796 /* croppImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A6AB629B4958800DF7796 /* croppImage.swift */; };
+		189A6AC229B4958800DF7796 /* postProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A6AB729B4958800DF7796 /* postProcess.swift */; };
+		189A6AC329B4958800DF7796 /* detectContours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A6AB829B4958800DF7796 /* detectContours.swift */; };
+		189A6AC429B4958800DF7796 /* preProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A6AB929B4958800DF7796 /* preProcess.swift */; };
+		189A6AC529B4958800DF7796 /* edgeDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A6ABA29B4958800DF7796 /* edgeDetection.swift */; };
+		189A6AC629B4958800DF7796 /* KMeanCluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A6ABB29B4958800DF7796 /* KMeanCluster.swift */; };
+		189A6AC729B4958800DF7796 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A6ABD29B4958800DF7796 /* extension.swift */; };
+		189A6AC829B4958800DF7796 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A6ABE29B4958800DF7796 /* Globals.swift */; };
+		189A6AC929B4958800DF7796 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A6ABF29B4958800DF7796 /* Helper.swift */; };
+		189A6ACA29B4958800DF7796 /* ContourStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A6AC029B4958800DF7796 /* ContourStruct.swift */; };
+		189A6ACC29B495B400DF7796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189A6ACB29B495B400DF7796 /* Assets.xcassets */; };
+		189A6AD129B4971800DF7796 /* SwiftCluster in Frameworks */ = {isa = PBXBuildFile; productRef = 189A6AD029B4971800DF7796 /* SwiftCluster */; };
+		B08AEB21302EC3F24C10B164 /* Pods_Foot_Mesurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B6B4F9E0695C24257DF2F5 /* Pods_Foot_Mesurement.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		189A6A9B29B494D300DF7796 /* Foot-Mesurement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Foot-Mesurement.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		189A6A9E29B494D300DF7796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		189A6AA029B494D300DF7796 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		189A6AA229B494D300DF7796 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		189A6AA529B494D300DF7796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		189A6AA729B494D500DF7796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189A6AAA29B494D500DF7796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		189A6AB629B4958800DF7796 /* croppImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = croppImage.swift; sourceTree = "<group>"; };
+		189A6AB729B4958800DF7796 /* postProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postProcess.swift; sourceTree = "<group>"; };
+		189A6AB829B4958800DF7796 /* detectContours.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detectContours.swift; sourceTree = "<group>"; };
+		189A6AB929B4958800DF7796 /* preProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = preProcess.swift; sourceTree = "<group>"; };
+		189A6ABA29B4958800DF7796 /* edgeDetection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = edgeDetection.swift; sourceTree = "<group>"; };
+		189A6ABB29B4958800DF7796 /* KMeanCluster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMeanCluster.swift; sourceTree = "<group>"; };
+		189A6ABD29B4958800DF7796 /* extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		189A6ABE29B4958800DF7796 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		189A6ABF29B4958800DF7796 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		189A6AC029B4958800DF7796 /* ContourStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContourStruct.swift; sourceTree = "<group>"; };
+		189A6ACB29B495B400DF7796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A904DBAB870CBD25873AD99 /* Pods-Foot-Mesurement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foot-Mesurement.debug.xcconfig"; path = "Target Support Files/Pods-Foot-Mesurement/Pods-Foot-Mesurement.debug.xcconfig"; sourceTree = "<group>"; };
+		E18A783CAED43AA1656BBBC2 /* Pods-Foot-Mesurement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foot-Mesurement.release.xcconfig"; path = "Target Support Files/Pods-Foot-Mesurement/Pods-Foot-Mesurement.release.xcconfig"; sourceTree = "<group>"; };
+		F2B6B4F9E0695C24257DF2F5 /* Pods_Foot_Mesurement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foot_Mesurement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B08AEB21302EC3F24C10B164 /* Pods_Foot_Mesurement.framework in Frameworks */,
+				189A6AD129B4971800DF7796 /* SwiftCluster in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +66,8 @@
 			children = (
 				189A6A9D29B494D300DF7796 /* Foot-Mesurement */,
 				189A6A9C29B494D300DF7796 /* Products */,
+				322DF96742B47519817DECCA /* Pods */,
+				D99DD8D56245568D56B45937 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,14 +82,72 @@
 		189A6A9D29B494D300DF7796 /* Foot-Mesurement */ = {
 			isa = PBXGroup;
 			children = (
-				189A6A9E29B494D300DF7796 /* AppDelegate.swift */,
-				189A6AA029B494D300DF7796 /* art.scnassets */,
-				189A6AA229B494D300DF7796 /* ViewController.swift */,
-				189A6AA429B494D300DF7796 /* Main.storyboard */,
-				189A6AA729B494D500DF7796 /* Assets.xcassets */,
-				189A6AA929B494D500DF7796 /* LaunchScreen.storyboard */,
+				189A6ACD29B495C300DF7796 /* Controllers */,
+				189A6ABC29B4958800DF7796 /* Helper */,
+				189A6AB529B4958800DF7796 /* Process Phases */,
+				189A6ACE29B495D900DF7796 /* UI */,
 			);
 			path = "Foot-Mesurement";
+			sourceTree = "<group>";
+		};
+		189A6AB529B4958800DF7796 /* Process Phases */ = {
+			isa = PBXGroup;
+			children = (
+				189A6AB629B4958800DF7796 /* croppImage.swift */,
+				189A6AB729B4958800DF7796 /* postProcess.swift */,
+				189A6AB829B4958800DF7796 /* detectContours.swift */,
+				189A6AB929B4958800DF7796 /* preProcess.swift */,
+				189A6ABA29B4958800DF7796 /* edgeDetection.swift */,
+				189A6ABB29B4958800DF7796 /* KMeanCluster.swift */,
+			);
+			path = "Process Phases";
+			sourceTree = "<group>";
+		};
+		189A6ABC29B4958800DF7796 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				189A6ABD29B4958800DF7796 /* extension.swift */,
+				189A6ABE29B4958800DF7796 /* Globals.swift */,
+				189A6ABF29B4958800DF7796 /* Helper.swift */,
+				189A6AC029B4958800DF7796 /* ContourStruct.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		189A6ACD29B495C300DF7796 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				189A6A9E29B494D300DF7796 /* AppDelegate.swift */,
+				189A6AA229B494D300DF7796 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		189A6ACE29B495D900DF7796 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				189A6AA929B494D500DF7796 /* LaunchScreen.storyboard */,
+				189A6AA429B494D300DF7796 /* Main.storyboard */,
+				189A6ACB29B495B400DF7796 /* Assets.xcassets */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		322DF96742B47519817DECCA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A904DBAB870CBD25873AD99 /* Pods-Foot-Mesurement.debug.xcconfig */,
+				E18A783CAED43AA1656BBBC2 /* Pods-Foot-Mesurement.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D99DD8D56245568D56B45937 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2B6B4F9E0695C24257DF2F5 /* Pods_Foot_Mesurement.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,15 +157,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 189A6AAE29B494D500DF7796 /* Build configuration list for PBXNativeTarget "Foot-Mesurement" */;
 			buildPhases = (
+				A423085AF9D136D6F8105F55 /* [CP] Check Pods Manifest.lock */,
 				189A6A9729B494D300DF7796 /* Sources */,
 				189A6A9829B494D300DF7796 /* Frameworks */,
 				189A6A9929B494D300DF7796 /* Resources */,
+				9E46295AFE8E09BB7A434141 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Foot-Mesurement";
+			packageProductDependencies = (
+				189A6AD029B4971800DF7796 /* SwiftCluster */,
+			);
 			productName = "Foot-Mesurement";
 			productReference = 189A6A9B29B494D300DF7796 /* Foot-Mesurement.app */;
 			productType = "com.apple.product-type.application";
@@ -109,6 +199,9 @@
 				Base,
 			);
 			mainGroup = 189A6A9229B494D300DF7796;
+			packageReferences = (
+				189A6ACF29B4971800DF7796 /* XCRemoteSwiftPackageReference "SwiftCluster" */,
+			);
 			productRefGroup = 189A6A9C29B494D300DF7796 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -123,22 +216,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189A6AA129B494D300DF7796 /* art.scnassets in Resources */,
 				189A6AAB29B494D500DF7796 /* LaunchScreen.storyboard in Resources */,
-				189A6AA829B494D500DF7796 /* Assets.xcassets in Resources */,
+				189A6ACC29B495B400DF7796 /* Assets.xcassets in Resources */,
 				189A6AA629B494D300DF7796 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9E46295AFE8E09BB7A434141 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foot-Mesurement/Pods-Foot-Mesurement-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foot-Mesurement/Pods-Foot-Mesurement-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Foot-Mesurement/Pods-Foot-Mesurement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A423085AF9D136D6F8105F55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Foot-Mesurement-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		189A6A9729B494D300DF7796 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189A6AC929B4958800DF7796 /* Helper.swift in Sources */,
+				189A6ACA29B4958800DF7796 /* ContourStruct.swift in Sources */,
+				189A6AC529B4958800DF7796 /* edgeDetection.swift in Sources */,
 				189A6AA329B494D300DF7796 /* ViewController.swift in Sources */,
+				189A6AC229B4958800DF7796 /* postProcess.swift in Sources */,
+				189A6AC729B4958800DF7796 /* extension.swift in Sources */,
+				189A6AC629B4958800DF7796 /* KMeanCluster.swift in Sources */,
 				189A6A9F29B494D300DF7796 /* AppDelegate.swift in Sources */,
+				189A6AC329B4958800DF7796 /* detectContours.swift in Sources */,
+				189A6AC129B4958800DF7796 /* croppImage.swift in Sources */,
+				189A6AC829B4958800DF7796 /* Globals.swift in Sources */,
+				189A6AC429B4958800DF7796 /* preProcess.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +424,7 @@
 		};
 		189A6AAF29B494D500DF7796 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A904DBAB870CBD25873AD99 /* Pods-Foot-Mesurement.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +455,7 @@
 		};
 		189A6AB029B494D500DF7796 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E18A783CAED43AA1656BBBC2 /* Pods-Foot-Mesurement.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -360,6 +506,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		189A6ACF29B4971800DF7796 /* XCRemoteSwiftPackageReference "SwiftCluster" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/eheitfield/SwiftCluster.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		189A6AD029B4971800DF7796 /* SwiftCluster */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 189A6ACF29B4971800DF7796 /* XCRemoteSwiftPackageReference "SwiftCluster" */;
+			productName = SwiftCluster;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 189A6A9329B494D300DF7796 /* Project object */;
 }
