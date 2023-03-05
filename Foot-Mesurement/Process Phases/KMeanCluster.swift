@@ -14,8 +14,7 @@ class KMeansClusterer {
     
     func ClusterImage(image: UIImage) -> UIImage? {
         guard let cgImage = image.cgImage else {
-            return nil
-//            preconditionFailure("Unable to read image data.")
+            preconditionFailure("Unable to read image data.")
         }
         let width = cgImage.width
         let height = cgImage.height
